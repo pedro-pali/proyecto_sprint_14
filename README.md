@@ -35,4 +35,7 @@ Utilicé libreria:
 En esta etapa, ignoré por completo los resultados y conclusiones obtenidas de los pasos anteriores para poder crear los clusters correctamente, ya que hay que recordar que los clusters sirven cuando no tienes una variable objetivo definida y no conoces las relaciones entre tus características.
 Entonces, para crear mis clusters estandaricé los datos con sklearn.preprocessing --> StandardScaler, después cree una matriz de distancia con la función linkage() y la visualicé con un dendograma para identificar el número óptimo de clusters de mis datos de acorde a los colores, lo cuál me dió 5. 
 Por ultimo, entren el modelo de clustering con el algortimo K-means y predige los clústeres de clientes. Al mirar los valores de churn de los clientes noté que el cluster 4 tenía un 97% de clientes que han cancelado su membresía, lo cuál comprobé al trazar las distribuciones de características para los clusters en digramas de cajas y calcular la tasa de cancelación de estos mismos.
- 
+
+## Conclusión general
+
+Enfocar esfuerzos en mercadotecnía para clientes menores a 26 años y/o que hayan contratado un periodo de membresía de 2 mes o menos.
