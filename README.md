@@ -1,4 +1,4 @@
-# Pronósticos y Predicciones
+# Pronósticos de churn
 
 ## Etapa 1. Definición de tarea y datos que voy a utilizar
 
